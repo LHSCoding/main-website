@@ -121,6 +121,13 @@ p {
   color: #ffbe3e;
   font-size: 65px;
 }
+.membersGrid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
 .projectGrid {
   display: inline-grid;
   grid-template-columns: auto auto auto;
@@ -249,7 +256,7 @@ p {
   border-radius: 500px;
 }
 .superRoundEdges {
-  border-radius: 7500px;
+  border-radius: 50%;
 }
 
 .link-blue {
