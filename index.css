@@ -206,8 +206,7 @@ p {
   background-color: #ffbe3e;
 }
 .aboutUs img {
-  border-radius: 25px;
-  margin: 16px;
+
     outline: #FFFFFF solid 8px;
 }
 .aboutUs img {
@@ -215,7 +214,7 @@ p {
   cursor: pointer;
 }
 .aboutUs img:hover {
-  transform: translateY(-10px);
+  transform: scale(125%);
 
 }
 .LRPadding {
