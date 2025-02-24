@@ -125,6 +125,8 @@ p {
     display: flex;
     justify-content: center;
     padding: 160px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .projectGrid {
