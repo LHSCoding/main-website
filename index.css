@@ -248,6 +248,9 @@ p {
 .roundEdges {
   border-radius: 500px;
 }
+.superRoundEdges {
+  border-radius: 7500px;
+}
 
 .link-blue {
   background: 
