@@ -214,7 +214,7 @@ p {
   cursor: pointer;
 }
 .aboutUs img:hover {
-  transform: scale(102.5%);
+  transform: translateY(5px);
 
 }
 .LRPadding {
@@ -224,7 +224,7 @@ p {
 .socialsContainer a i {
   color: #FFFFFF;
   margin: 10px;
-  transition: all 0.15s ease;
+  transition: all 0.15s ease-in-out;
 }
 .socialsContainer a:hover i {
   transform: translateY(-2px);
