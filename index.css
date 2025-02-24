@@ -124,8 +124,8 @@ p {
 .membersGrid {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    padding: 20px;
+    width: 
+    padding: 60px;
 }
 
 .projectGrid {
@@ -214,7 +214,7 @@ p {
   cursor: pointer;
 }
 .aboutUs img:hover {
-  transform: scale(125%);
+  transform: scale(102.5%);
 
 }
 .LRPadding {
