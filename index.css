@@ -124,8 +124,7 @@ p {
 .membersGrid {
     display: flex;
     justify-content: center;
-    width: 
-    padding: 60px;
+    padding: 160px;
 }
 
 .projectGrid {
@@ -205,6 +204,7 @@ p {
   text-align: center;
   background-color: #ffbe3e;
 }
+
 .aboutUs img {
 
     outline: #FFFFFF solid 8px;
