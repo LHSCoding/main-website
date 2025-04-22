@@ -1,7 +1,7 @@
 # LHSCoding.github.io
 ## Largo High School Coding Club's website!
 
-### Link to website: https://lhscoding.github.io
+### Link to website: https://largo.hackclub.com
 
 ### Features
 * **Announcements**
