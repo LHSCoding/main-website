@@ -1,106 +1,131 @@
 <!DOCTYPE html>
 
 <html lang="en-us">
-  <head>
-    <title>LHSCC Website</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/w3.css">
-    <link rel="stm ylesheet" href="styles/Montserrat.css">
-    <script src="scripts/FontAwesome.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/animate.min.css"/>
-    <link rel="stylesheet" href="index.css"/>
-    <link rel="icon" href="Icons/Logo%20Main%20Gradient.png">
-    <meta name="google-site-verification" content="uT1zX0irYKdWAsWll6jsGT3FWRYY_svP8VWc8QfD-8k" />  <!-- Google site
-    verification -->
-    <meta name="msvalidate.01" content="EF8DDE41FFE90F9E2692E0222532A070" /> <!--Bing site verification-->
-    <meta name="description" content="Main page for Largo High School Coding Club, includes the status, portfolio, members
-    list, and links to our webpages."> 
-  </head>
-<body>
-  <div class="sidebar">
-    <a href="index.html"><img src="Icons/Logo%20Main%20Gradient.png" alt="LHSCC Logo" height="262"></a>
-    <a href="#home"><i class="fas fa-fw fa-home fa-1x"></i></a>
-    <a href="#members"><i class="fa-solid fa-users fa-1x"></i></a>
-    <a href="#projects"><i class="fa-solid fa-laptop-code fa-1x"></i></a>
-    <a href="#agenda"><i class="fa-solid fa-calendar-days fa-1x"></i></a>
-  </div>
-  <div id="mainSection" class="mainSection">
-      <div class="LRPadding">
-      <h1 id="home">Largo High School Coding Club / <a href="history.html" class="link-blue">2024-2025</a></h1>
-      <h2>Announcements:</h2>
-      <p>Join the <a class="link-yellow" href="https://discord.gg/kNrSGKD5wq">Club's Discord Server</a><br>Just to let you know, we are better
-        than the Largo High School Red Cross Club, as formally declared by their president during the Largo Youth Mental
-        Health festival.</p>
-      </div>
-      <div class="aboutUs">
-        <h3 id="members">Members</h3>
-        <div class="membersGrid">
-        <a href="https://d4lmwastaken.github.io/">
-        <img src="Icons/Logo%20D4LM.jpg" height=145 class="superRoundEdges" alt="D4LM's Logo">
-        </a>
+    <head>
+        <!--Metadata for websites-->
+        <title>Largo High School Coding Club|Hack Club in Largo, Florida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <meta name="description" content="Wbeiste for the Largo High School Coding Club. A hack club in Largo, Florida.">     
+    
+        <!-- Preloading stuff-->
+        <link rel="preload" href="styles/w3.css" as="style">
+        <link rel="preload" href="styles/Montserrat.css" as="style">
+        <link rel="preload" href="scripts/FontAwesome.js" crossorigin="anonymous" as="script">
+        <link rel="preload" href="styles/animate.min.css" as="style">
+        <link rel="preload" href="index.css" as="style">
+        <link rel="preload" href="Icons/Logo Main Gradient.png" as="image">
+    
+        <!--Resoure hints-->
+        <link rel="dns-prefetch" href="https://github.com">
+        <link rel="preconnect" href="https://github.com">
+        <link rel="dns-prefetch" href="https://largo.hackclub.com"> <!--Experimental, going to run it through HackClub and website address-->
+        <link rel="preconnect" href="https://largo.hackclub.com">
+        <link rel="dns-prefetch" href="https://hackclub.com">
+        <link rel="preconnect" href="https://hackclub.com"
+    
+    
+        <!--Loading stuff-->
+        <link rel="stylesheet" href="styles/w3.css">
+        <link rel="stylesheet" href="styles/Montserrat.css">
+        <script src="scripts/FontAwesome.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/animate.min.css"/>
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="icon" href="Icons/Logo Main Gradient.png" type="image/x-icon">
+    
+        <!--Site Verifications so that it shows up in search-->
+        <meta name="google-site-verification" content="uT1zX0irYKdWAsWll6jsGT3FWRYY_svP8VWc8QfD-8k" /> <!-- Google siteverification -->
+        <meta name="msvalidate.01" content="EF8DDE41FFE90F9E2692E0222532A070" /> <!--Bing site verification-->
 
-        <a href="https://s-orbital.github.io">
-          <img src="Icons/Logo%20SOrbital.jpg" height=145 alt="S-Orbital Logo" class="superRoundEdges">
-        </a>
+    </head>
+    
+    <body>
+        <div class="sidebar">
+            <a href="index.html"><img src="Icons/Logo%20Main%20Gradient.png" alt="LHSCC Logo" height="262"></a>
+            <a href="#home"><i class="fas fa-fw fa-home fa-1x"></i></a> <!--References font awesome font library-->
+            <a href="#members"><i class="fa-solid fa-users fa-1x"></i></a>
+            <a href="#projects"><i class="fa-solid fa-laptop-code fa-1x"></i></a>
+            <a href="#agenda"><i class="fa-solid fa-calendar-days fa-1x"></i></a>
         </div>
-        <!--
-        <img src="Photos/AboutMe/Orbitals.png" height=500 alt="Orbitals">
-        <a href="https://d4lmwastaken.github.io/">
-          <img src="Photos/AboutMe/D4LM.png" height=500 alt="D4LM">
-        </a>
-        -->
-      </div>
-      <div class="projectsContainer" id="projects">
-      <h2>Projects</h2>
-        <div class="projectGrid">
-        <a href="https://d4lmwastaken.github.io/" class="projectCard d4lm">
-        <img src="Icons/Logo%20D4LM.jpg" height=145 class="roundEdges" alt="D4LM's Logo">
-        <p>D4LM's Website</p>
-        </a>
+        
+        <div id="mainSection" class="mainSection">
+            <div class="LRPadding">
+                <h1 id="home">Largo High School Coding Club / <a href="history.html" class="link-blue">V2.0</a></h1>
+                <h2>Announcements:</h2>
+                <p>Join the Largo High School Coding Club's<a class="link-yellow" href="https://discord.gg/kNrSGKD5wq">here</a><br></p>
+                <p>The website is being heavily and modified right now, if there are broken stuff, this is the reason why - D4LM</p>
+            </div>
+      
+            <div class="aboutUs">
+                <h3 id="members">Members</h3>
+                    <div class="membersGrid">
+                        <a href="https://d4lmwastaken.github.io/">
+                            <img src="Icons/Logo%20D4LM.jpg" height=145 class="superRoundEdges" alt="D4LM's Logo">
+                        </a>
 
-        <a href="https://d4lmwastaken.github.io/LHSCC-Discord-Bot/" class="projectCard d4lm">
-          <img src="Icons/Logo%20Block.png" height=145 alt="LHSCC Logo">
-          <p>LHSCC Discord Bot</p>
-        </a>
+                        <a href="https://s-orbital.github.io"> <!--No website here, sad...-->
+                            <img src="Icons/Logo%20SOrbital.jpg" height=145 alt="S-Orbital Logo" class="superRoundEdges">
+                        </a>
+                    </div>
+            </div>
+        
+            <div class="projectsContainer" id="projects">    
+                <h2>Projects</h2>
+                <div class="projectGrid">
+                    <a href="https://d4lmwastaken.github.io/" class="projectCard d4lm">
+                        <img src="Icons/Logo%20D4LM.jpg" height=145 class="roundEdges" alt="D4LM's Logo">
+                        <p>D4LM's Website</p>
+                    </a>
 
-        <a href="https://github.com/S-Orbital/alphastats" class="projectCard sorbital">
-          <img src="Icons/Logo%20Block.png" height=145 alt="LHSCC Logo">
-          <p>AlphaStats</p>
-        </a>
-        <a href="https://golden-aleksei.github.io/index.html" class="projectCard d4lm">
-          <img src="Icons/Logo Golden Aleksei.webp" height=145 alt="LHSCC Logo">
-          <p>Golden Aleksei</p>
-        </a>
-        <a href="https://openprocessing.org/sketch/1933192" class="projectCard sorbital">
-          <img src="Icons/Logo%20Block.png" height=145 alt="LHSCC Logo">
-          <p>TetraVex</p>
-        </a>
-        </div>
-      </div>
-  <div class="agenda" id="agenda">
-    <a href="Files/Agenda/LHSCC Meeting Agenda 3-13-2025.pdf">
-      <h2>Agenda for March 13th, 2025</h2>
-    </a>
-    <object data="Files/Agenda/LHSCC Meeting Agenda 3-13-2025.pdf" type="application/pdf" width="100%" height="100%">
-    </object>
-  </div>
-  <div class="socialsContainer">
-    <a href="https://github.com/LHSCoding"><i class="fa-fw fa-solid fa-brands fa-github fa-2x git"></i></a>
-    <a href="https://discord.gg/kNrSGKD5wq"><i class="fa-fw fa-solid fa-brands fa-discord fa-2x dsc"></i></a>
-    <a href="https://www.youtube.com/@lhscc"><i class="fa-fw fa-solid fa-brands fa-youtube fa-2x yt"></i></a>
-    <a href="https://www.instagram.com/lhs.coding/"><i class="fa-fw fa-solid fa-brands fa-instagram fa-2x ig"></i></a>
-    <a href="https://www.facebook.com/profile.php?id=61564881492918"><i class="fa-fw fa-solid fa-brands fa-facebook fa-2x fb"></i></a>
-    <a href="x.com/lhscoding"><i class="fa-fw fa-solid fa-brands fa-x-twitter fa-2x xtw"></i></a>
-    <a href="mailto:largohscc@gmail.com"><i class="fa-fw fa-solid fa-envelope fa-2x mai"></i></a>
-  </div>
+                    <a href="https://d4lmwastaken.github.io/LHSCC-Discord-Bot/" class="projectCard d4lm">
+                        <img src="Icons/Logo%20Block.png" height=145 alt="LHSCC Logo">
+                        <p>LHSCC Discord Bot</p>
+                        </a>
+
+                    <a href="https://github.com/S-Orbital/alphastats" class="projectCard sorbital">
+                        <img src="Icons/Logo%20Block.png" height=145 alt="LHSCC Logo">
+                        <p>AlphaStats</p>
+                    </a>
+                    
+                    <a href="https://golden-aleksei.github.io/index.html" class="projectCard d4lm">
+                        <img src="Icons/Logo Golden Aleksei.webp" height=145 alt="LHSCC Logo">
+                        <p>Golden Aleksei</p>
+                    </a>
+                    
+                    <a href="https://openprocessing.org/sketch/1933192" class="projectCard sorbital">
+                        <img src="Icons/Logo%20Block.png" height=145 alt="LHSCC Logo">
+                        <p>TetraVex</p>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="agenda" id="agenda">
+                <a href="Files/Agenda/latest.pdf">
+                    <h2>Agenda not available, please check in the near future</h2>
+                </a>
+                <!-- Until next time I have an agenda, so that I don't have to keep on editing html
+                <object data="latest.pdf" type="application/pdf" width="100%" height="100%"></object>
+                -->
+            </div>
+            
+            <div class="socialsContainer">
+                <a href="https://github.com/LHSCoding"><i class="fa-fw fa-solid fa-brands fa-github fa-2x git"></i></a>
+                <a href="https://discord.gg/kNrSGKD5wq"><i class="fa-fw fa-solid fa-brands fa-discord fa-2x dsc"></i></a>
+                <a href="https://www.youtube.com/@lhscc"><i class="fa-fw fa-solid fa-brands fa-youtube fa-2x yt"></i></a>
+                <a href="https://www.instagram.com/lhs.coding/"><i class="fa-fw fa-solid fa-brands fa-instagram fa-2x ig"></i></>
+                <a href="https://www.facebook.com/profile.php?id=61564881492918"><i class="fa-fw fa-solid fa-brands fa-facebook fa-2x fb"></i></a>
+                <a href="x.com/lhscoding"><i class="fa-fw fa-solid fa-brands fa-x-twitter fa-2x xtw"></i></a>
+                <a href="mailto:largohscc@gmail.com"><i class="fa-fw fa-solid fa-envelope fa-2x mai"></i></a>
+            </div>
   
 
-  </div>
-  <script>
-    console.log(document.getElementById("sigma").offsetWidth + "erm");
-    document.getElementById("mainSection").style.marginLeft =  (document.getElementById("sigma").offsetWidth) + "px";
+        </div>
+        <!--Testing, finding out if this does anything -D4LM
+        <script>
+            console.log(document.getElementById("sigma").offsetWidth + "erm");
+            document.getElementById("mainSection").style.marginLeft = (document.getElementById("sigma").offsetWidth) + "px";
     
-  </script>
-</body>
+        </script>
+        -->
+    </body>
 </html>

@@ -12,3 +12,8 @@
 ### Contributors
 * Lead Developer: **S-Orbital**
 * Agenda & Bug Maintenance: **D4LM**
+
+### How to run locally
+```bash
+npx http-server -o -p 4444
+```

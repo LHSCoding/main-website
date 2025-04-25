@@ -1,291 +1,365 @@
+/* Global Styles */
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
 }
+
+/* Font Face Declaration */
 @font-face {
-    font-family: "Bernhard-Gothic";
-    src: url("Fonts/BernhardGothicURW-Heavy.ttf") format('truetype');
+    font-family: "Bernhard-Gothic"; /* Defines the custom font family name */
+    src: url("Fonts/BernhardGothicURW-Heavy.ttf") format('truetype'); /* Specifies the font file path and format */
 }
 
-body, h2,h4,h5,h6 {
-    color: #ffbe3e;
-    font-family: "Bernhard-Gothic", sans-serif;
+/* Base Styles for Body and Headings (h2, h4, h5, h6) */
+body, h2, h4, h5, h6 {
+    color: #ffbe3e; /* Sets the default text color to a yellowish-orange */
+    font-family: "Bernhard-Gothic", sans-serif; /* Applies the custom font with a fallback to sans-serif */
 }
+
+/* Style for h1 */
 h1 {
-    font-family: "Bernhard-Gothic", sans-serif;
+    font-family: "Bernhard-Gothic", sans-serif; /* Applies the custom font */
+    color: #5ce1e6; /* Sets the text color to a light blue */
 }
-h1 {
-    color: #5ce1e6;
-}
+
+/* Style for h3 */
 h3 {
-    font-family: "Bernhard-Gothic", sans-serif;
+    font-family: "Bernhard-Gothic", sans-serif; /* Applies the custom font */
+    color: #FFFFFF; /* Sets the text color to white */
+    font-size: 3.875em; /* Sets a large font size */
 }
-h3 {
-    color: #FFFFFF;
-    font-size: 3.875em;
-}
+
+/* Style for paragraphs */
 p {
-    color: #ffbe3e; /* #ffbe3e #5ce1e6 #FFFFFF */
+    color: #ffbe3e; /* Sets the default paragraph text color (commented out alternative colors) */
 }
 
-    #main {margin-left: 80px}
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {
-      #main {margin-left: 0};
-    }
-    p {
-      font-size: 1.5em;
-    }
-    .header {
-      font-size: 5em;
-    }
-    .sidebar {
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(90deg, #5ce1e6,#5ce1e6,#5ce1e6,#5ce1e6,#5ce1e6,#5ce1e6,#5ce1e6,#5ce1e6,#5ce1e6,#49c0c4);
-  overflow-x: hidden;
-  padding-top: 16px;
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+/* Main Content Area Styles */
+#main {
+    margin-left: 80px; /* Adds left margin to the main content, likely for a sidebar */
 }
 
+/* Media Query for Small Screens */
+@media only screen and (max-width: 600px) {
+    .main {
+        margin-left: 0; /* Removes left margin on small screens for full width */
+    }
+}
+
+/* Paragraph Font Size */
+p {
+    font-size: 1.5em; /* Sets a larger font size for paragraphs */
+}
+
+/* Header Font Size */
+.header {
+    font-size: 5em; /* Sets a very large font size for elements with the class "header" */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    height: 100%; /* Full height of the viewport */
+    position: fixed; /* Stays in place even when scrolling */
+    z-index: 1; /* Ensures it's on top of other elements */
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, #5ce1e6, #5ce1e6, #5ce1e6, #5ce1e6, #5ce1e6, #5ce1e6, #5ce1e6, #5ce1e6, #5ce1e6, #49c0c4); /* Linear gradient background */
+    overflow-x: hidden; /* Prevents horizontal scrollbar for content wider than the sidebar */
+    padding-top: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100px; /* Fixed width of the sidebar */
+    margin-left: auto;
+    margin-right: auto; /* Centers the sidebar if its container is wider (though fixed positioning might override this) */
+    text-align: center; /* Centers text content within the sidebar */
+}
+
+/* Container for Flex Layout */
 .container {
-    display: flex;
-    flex-direction: row;
+    display: flex; /* Enables flexbox layout for child elements */
+    flex-direction: row; /* Arranges child elements in a row */
 }
 
-.mainSection{
-   flex: 1;
-    margin-left: 100px; /* Match sidebar width */
+/* Main Section Styles */
+.mainSection {
+    flex: 1; /* Allows this section to take up remaining horizontal space */
+    margin-left: 100px; /* Creates space for the fixed sidebar */
     padding-bottom: 0;
 }
 
+/* Sidebar Link Styles */
 .sidebar a {
-  padding:8px;
-  text-decoration: none;
-  font-size: 16px;
-  color: #FFFFFF;
-  display: block;
-
+    padding: 8px;
+    text-decoration: none; /* Removes underlines from links */
+    font-size: 16px;
+    color: #FFFFFF; /* Sets link text color to white */
+    display: block; /* Makes each link take up the full width of its container */
 }
 
+/* Sidebar Link Hover Effect */
 .sidebar a:hover {
-  color: #f1f1f1;
+    color: #f1f1f1; /* Lightens the link text color on hover */
 }
+
+/* Sidebar Icon Styles */
 .sidebar a i {
-  transition: all 0.3s linear;
+    transition: all 0.3s linear; /* Smooth transition for icon changes */
 }
+
+/* Sidebar Icon Hover Effect */
 .sidebar a:hover i {
-  transform: scale(1.25);
+    transform: scale(1.25); /* Slightly enlarges the icon on hover */
 }
 
+/* Sidebar Image Styles */
 .sidebar img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px;
+    max-width: 100%; /* Ensures the image doesn't exceed the sidebar width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra spacing around the image */
+    margin: 0 auto 10px; /* Centers the image horizontally with bottom margin */
 }
 
+/* Main Content Area (Redundant - already have #main) */
 .main {
-  margin-left: 80px; /* Same as the width of the sidenav */
+    margin-left: 80px; /* Same as the width of the sidenav */
 }
 
-/* @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-} */
-
+/* Socials Container Styles */
 .socialsContainer {
-  background-color: #ffbe3e;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  padding-left: 25px;
-  padding-right: 25px;
-  height: 80px;
+    background-color: #ffbe3e; /* Yellowish-orange background */
+    justify-content: center; /* Centers content horizontally in flexbox */
+    align-items: center; /* Centers content vertically in flexbox */
+    display: flex; /* Enables flexbox layout */
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 80px; /* Fixed height of the container */
+}
 
-}
+/* Projects Container Styles */
 .projectsContainer {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* White background */
     padding: 25px;
-    text-align: center;
+    text-align: center; /* Centers text within the container */
 }
+
+/* Projects Container Heading (h2) */
 .projectsContainer h2 {
-  color: #ffbe3e;
-  font-size: 65px;
+    color: #ffbe3e; /* Yellowish-orange text color */
+    font-size: 65px; /* Large font size */
 }
+
+/* Members Grid Layout */
 .membersGrid {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
+    display: inline-grid; /* Creates an inline-level grid container */
+    grid-template-columns: auto auto auto; /* Creates three automatic width columns */
+    justify-content: center; /* Centers grid items horizontally */
     margin-left: 25px;
     margin-right: 25px;
 }
 
+/* Project Grid Layout */
 .projectGrid {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  padding: 100px;
-  gap: 25px;
-    
-}
-.projectCard {
-  background: linear-gradient(152deg, #FFFFFF, #ffbe3e);
-  padding: 2rem;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  color: #ffbe3e;
-  border-radius: 8px;
-  width: 250px;
-}
-.d4lm {
-  background: linear-gradient(152deg, #020204, #39163f);
-}
-.d4lm p {
-  color: #FFFFFF;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-}
-.sorbital {
-    background: linear-gradient(152deg, #000000, #3533cd);
-}
-.sorbital p {
-    color: #FFFFFF;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    display: inline-grid; /* Creates an inline-level grid container */
+    grid-template-columns: auto auto auto; /* Creates three automatic width columns */
+    justify-content: center; /* Centers grid items horizontally */
+    padding: 100px;
+    gap: 25px; /* Spacing between grid items */
 }
 
-.projectCard:hover {
-  transform: scale(102%);
-  box-shadow: 0 10px 20px rgba(139,47,147,0.2);
+/* Project Card Styles */
+.projectCard {
+    background: linear-gradient(152deg, #FFFFFF, #ffbe3e); /* Linear gradient background */
+    padding: 2rem; /* Padding around the content */
+    transition: all 0.3s ease; /* Smooth transition for all property changes */
+    position: relative; /* For positioning child elements */
+    overflow: hidden; /* Hides content that overflows the card */
+    text-decoration: none; /* Removes text decoration from links */
+    display: flex; /* Enables flexbox layout for card content */
+    flex-direction: column; /* Arranges content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text within the card */
+    color: #ffbe3e; /* Default text color */
+    border-radius: 8px; /* Rounded corners */
+    width: 250px; /* Fixed width of the card */
 }
+
+/* Specific Project Card Style (d4lm) */
+.d4lm {
+    background: linear-gradient(152deg, #020204, #39163f); /* Dark gradient background */
+}
+
+/* Paragraph style within d4lm project card */
+.d4lm p {
+    color: #FFFFFF; /* White text color */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; /* Glowing text effect */
+}
+
+/* Specific Project Card Style (sorbital) */
+.sorbital {
+    background: linear-gradient(152deg, #000000, #3533cd); /* Dark blue gradient background */
+}
+
+/* Paragraph style within sorbital project card */
+.sorbital p {
+    color: #FFFFFF; /* White text color */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; /* Glowing text effect */
+}
+
+/* Project Card Hover Effect */
+.projectCard:hover {
+    transform: scale(102%); /* Slightly scales up the card on hover */
+    box-shadow: 0 10px 20px rgba(139, 47, 147, 0.2); /* Adds a purple shadow on hover */
+    background-color: gray;
+}
+
+/* Agenda Section Styles */
 .agenda {
     margin-top: 20px;
     padding: 20px;
-    background-color: rgba(92, 225, 230, 0.1);
+    background-color: rgba(92, 225, 230, 0.1); /* Light blue transparent background */
 }
 
+/* Agenda Section Heading (h2) */
 .agenda h2 {
-    color: #5ce1e6;
+    color: #5ce1e6; /* Light blue text color */
     margin-bottom: 15px;
 }
 
+/* Agenda Object (e.g., embedded PDF) */
 .agenda object {
     width: 100%;
     height: 600px;
-    border: 1px solid #5ce1e6;
-    border-radius: 5px;
+    border: 1px solid #5ce1e6; /* Light blue border */
+    border-radius: 5px; /* Slightly rounded corners */
 }
+
+/* Alternative Agenda Section Styles */
 .agenda {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  background-color: #5ce1e6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #5ce1e6; /* Solid light blue background */
 }
+
+/* Alternative Agenda Heading (h2) */
 .agenda h2 {
-  color: #FFFFFF;
+    color: #FFFFFF; /* White text color */
 }
+
+/* Alternative Agenda Paragraph */
 .agenda p {
-  color: #FFFFFF;
+    color: #FFFFFF; /* White text color */
 }
+
+/* About Us Section Styles */
 .aboutUs {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  background-color: #ffbe3e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #ffbe3e; /* Yellowish-orange background */
 }
 
+/* About Us Image Styles */
 .aboutUs img {
+    outline: #FFFFFF solid 8px; /* White outline around the image */
+}
 
-    outline: #FFFFFF solid 8px;
-}
+/* About Us Image Hover Transition */
 .aboutUs img {
-  transition: all 0.3s ease;
-  cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
 }
+
+/* About Us Image Hover Effect */
 .aboutUs img:hover {
-  transform: translateY(5px);
-
+    transform: translateY(5px); /* Slightly moves the image down on hover */
 }
+
+/* Left and Right Padding Utility Class */
 .LRPadding {
-  padding-left: 25px;
-  padding-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
+
+/* Socials Container Icon Styles */
 .socialsContainer a i {
-  color: #FFFFFF;
-  margin: 10px;
-  transition: all 0.15s ease-in-out;
+    color: #FFFFFF; /* White icon color */
+    margin: 10px;
+    transition: all 0.15s ease-in-out; /* Smooth transition for icon changes */
 }
+
+/* Socials Container Icon Hover Effect */
 .socialsContainer a:hover i {
-  transform: translateY(-2px);
+    transform: translateY(-2px); /* Slightly moves the icon up on hover */
 }
 
+/* Social Media Icon Hover Effects */
 .dsc:hover {
-  color: #5865F2;
+    color: #5865F2; /* Discord blue */
 }
-.ig:hover{
-  color: #E1306C;
+
+.ig:hover {
+    color: #E1306C; /* Instagram pink/purple */
 }
+
 .yt:hover {
-  color: #FF0000;
+    color: #FF0000; /* YouTube red */
 }
+
 .fb:hover {
-  color: #4267B2;
+    color: #4267B2; /* Facebook blue */
 }
+
 .xtw:hover {
-  color: #000000;
+    color: #000000; /* X (formerly Twitter) black */
 }
+
 .git:hover {
-  color: #000000;
+    color: #000000; /* GitHub black */
 }
+
 .mai:hover {
-  color: #666666;
+    color: #666666; /* Gray for mail */
 }
+
+/* Utility Class for Round Edges */
 .roundEdges {
-  border-radius: 500px;
+    border-radius: 500px; /* Creates very rounded edges, almost a circle if height/width are equal */
 }
+
+/* Utility Class for Super Round Edges (Circle) */
 .superRoundEdges {
-  border-radius: 50%;
+    border-radius: 50%; /* Creates a perfect circle if height and width are equal */
 }
 
+/* Link Underline Animation (Blue) */
 .link-blue {
-  background: 
-    linear-gradient(to right, #5ce1e6, #5ce1e6),
-    linear-gradient(to right, #5ce1e6, #5ce1e6, #FFFFFF);
-  background-size: 100% 0.1em, 0 0.1em;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+    background:
+        linear-gradient(to right, #5ce1e6, #5ce1e6), /* Solid blue background for the initial state */
+        linear-gradient(to right, #5ce1e6, #5ce1e6, #FFFFFF); /* Gradient for the hover effect */
+        background-size: 100% 0.1em, 0 0.1em; /* Initial underline is full width but zero height, hover is zero width and full height */
+        background-position: 100% 100%, 0 100%; /* Positions the backgrounds at the bottom */
+        background-repeat: no-repeat;
+        transition: background-size 400ms; /* Smooth transition for the background size change */
 }
+
+/* Link Underline Animation (Yellow) */
 .link-yellow {
-  background: 
-    linear-gradient(to right, #ffbe3e, #ffbe3e),
-    linear-gradient(to right, #ffbe3e, #ffbe3e, #FFFFFF);
-  background-size: 100% 0.1em, 0 0.1em;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+    background:
+        linear-gradient(to right, #ffbe3e, #ffbe3e), /* Solid yellow background for the initial state */
+        linear-gradient(to right, #ffbe3e, #ffbe3e, #FFFFFF); /* Gradient for the hover effect */
+        background-size: 100% 0.1em, 0 0.1em; /* Initial underline is full width but zero height, hover is zero width and full height */
+        background-position: 100% 100%, 0 100%; /* Positions the backgrounds at the bottom */
+        background-repeat: no-repeat;
+        transition: background-size 400ms; /* Smooth transition for the background size change */
 }
 
-a:hover,
-a:focus {
-  background-size: 0 0.1em, 100% 0.1em;
+/* Link Hover and Focus Effect for Underline Animation */
+a:hover, a:focus {
+    background-size: 0 0.1em, 100% 0.1em; /* On hover/focus, the initial full width underline disappears, and the zero width gradient grows to full width */
 }
 
+/* Default Link Styles */
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes default link underlines */
 }
-
-/* #ffbe3e #5ce1e6 #FFFFFF */
