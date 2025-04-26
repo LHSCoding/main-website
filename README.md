@@ -17,3 +17,8 @@
 ```bash
 npx http-server -o -p 4444
 ```
+
+### How to develop locally
+```bash
+npx live-server --port=4444
+```
