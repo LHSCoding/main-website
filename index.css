@@ -150,7 +150,8 @@ p {
 /* Members Grid Layout */
 .membersGrid {
     display: inline-grid; /* Creates an inline-level grid container */
-    grid-template-columns: auto auto auto; /* Creates three automatic width columns */
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
     justify-content: center; /* Centers grid items horizontally */
     margin-left: 25px;
     margin-right: 25px;
@@ -159,7 +160,7 @@ p {
 /* Project Grid Layout */
 .projectGrid {
     display: inline-grid; /* Creates an inline-level grid container */
-    grid-template-columns: auto auto auto; /* Creates three automatic width columns */
+    grid-template-columns: auto auto auto auto; /* Creates four automatic width columns */
     justify-content: center; /* Centers grid items horizontally */
     padding: 100px;
     gap: 25px; /* Spacing between grid items */
