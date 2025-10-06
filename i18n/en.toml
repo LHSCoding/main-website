@@ -1,0 +1,8 @@
+[community_introduce]
+other = "{{ .Site.Title }} is a coding that anyone in Largo High School can join and the world can use. We'd love you to join us if you are from Largo High School! Here's a few ways to find out what's happening and get involved."
+
+[community_join]
+other = "Join {{ .Site.Title }}!"
+
+[community_using]
+other = "Want to learn about {{ .Site.Title }}? Go to these links:"
