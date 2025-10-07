@@ -3,6 +3,11 @@ title: Largo High School Coding Club (LHSCC)
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
+# GitHub Pages specific settings
+caches:
+  images:
+    dir: :cacheDir/images
+
 # Language settings
 contentDir: content/en
 defaultContentLanguage: en
