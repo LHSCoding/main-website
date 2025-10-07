@@ -99,6 +99,8 @@ params:
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
 
+
+
   privacy_policy: https://largo.hackclub.com/Privacy.md
 
   # First one is picked as the Twitter card image if not set on page.
@@ -155,7 +157,7 @@ params:
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
     navbar_logo: true
     # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
-    navbar_translucent_over_cover_disable: false
+    navbar_translucent_over_cover_disable: true
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: false
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
@@ -178,6 +180,10 @@ params:
     # add "hide_readingtime: true" to the page's front matter
     readingtime:
       enable: true
+
+    # Enable dark mode toggle
+    showLightDarkModeMenu: true
+
 
   links:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
