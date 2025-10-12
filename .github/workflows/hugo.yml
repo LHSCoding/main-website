@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.110.0
+      HUGO_VERSION: 0.151.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -47,7 +47,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci && npm i -D postcss postcss-cli autoprefixer || true "
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true "
+      - name: Check for dependency issues
+        run: "hugo mod graph"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
