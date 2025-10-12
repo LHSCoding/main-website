@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/lhscoding.github.io.iml" filepath="$PROJECT_DIR$/.idea/lhscoding.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/docsy-example.iml" filepath="$PROJECT_DIR$/.idea/docsy-example.iml" />
     </modules>
   </component>
 </project>

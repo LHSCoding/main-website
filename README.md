@@ -1,24 +1,32 @@
-# LHSCoding.github.io
-## Largo High School Coding Club's website!
-
+# Largo High School Coding Club's website!
 ### Link to website: https://largo.hackclub.com
-
-### Features
-* **Announcements**
-* **About Us**
-* **Projects**
-* **Contact Us**
-
-### Contributors
-* Lead Developer: **S-Orbital**
-* Agenda & Bug Maintenance: **D4LM**
-
-### How to run locally
+## Language and Framework
+* Framework: Hugo
+* Theme: Docsy
+## Development
 ```bash
-npx http-server -o -p 4444
+hugo server
+```
+### Project Structure
+```
+.
+├── assets
+├── CNAME
+├── config.yaml
+├── content
+├── go.mod
+├── go.sum
+├── hugo.yaml
+├── i18n
+├── index.css
+├── layouts
+├── LICENSE
+├── netlify.toml
+├── node_modules
+├── Privacy.md
+├── public
+├── README.md
+├── resources
+└── static
 ```
 
-### How to develop locally
-```bash
-npx live-server --port=4444
-```
