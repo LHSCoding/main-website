@@ -1,0 +1,22 @@
+name: fastfetch.yml
+
+on:
+  push:
+    branches: ["main"]
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      FASTFETCH_VERSION: 2.53.0
+    steps:
+      - name: Download Fastfetch!
+        run: wget https://github.com/fastfetch-cli/fastfetch/releases/download/${FASTFETCH_VERSION}/fastfetch-linux-amd64.deb
+      - name: Install Fastfetch!
+        run: sudo dpkg -i fastfetch-linux-amd64.deb
+      - name: Run Fastfetch!
+        run: fastfetch
