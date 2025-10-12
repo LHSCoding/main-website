@@ -8,11 +8,14 @@
 hugo server
 ```
 * You may need to update Hugo if preinstalled (like Fedora)!
+### Debugging (if it won't start at first)
+```bash
+hugo mod graph
+```
 ### Project Structure
 ```
 .
 ├── assets
-├── CNAME
 ├── config.yaml
 ├── content
 ├── go.mod
@@ -24,10 +27,11 @@ hugo server
 ├── LICENSE
 ├── netlify.toml
 ├── node_modules
+├── package.json
+├── package-lock.json
 ├── Privacy.md
 ├── public
 ├── README.md
 ├── resources
 └── static
-```
 
