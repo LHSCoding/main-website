@@ -7,6 +7,7 @@
 ```bash
 hugo server
 ```
+* You may need to update Hugo if preinstalled (like Fedora)!
 ### Project Structure
 ```
 .
