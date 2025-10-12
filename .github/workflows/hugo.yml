@@ -33,10 +33,12 @@ jobs:
     env:
       HUGO_VERSION: 0.151.0
     steps:
+      - name: Download Fastfetch!
+        run: wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.53.0/fastfetch-linux-amd64.deb
+      - name: Install Fastfetch!
+        run: sudo dpkg -i fastfetch-linux-amd64.deb
       - name: Run Fastfetch!
-        run: |
-          wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.53.0/fastfetch-linux-amd64.deb
-          && sudo dpkg -i fastfetch-linux-amd64.deb && rm fastfetch-linux-amd64.deb && fastfetch
+        run: fastfetch
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
