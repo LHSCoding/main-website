@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Largo High School Coding Club on LHSCC</title>
+    <link>https://largo.hackclub.com/</link>
+    <description>Recent content in Largo High School Coding Club on LHSCC</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://largo.hackclub.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the new website!</title>
+      <link>https://largo.hackclub.com/blog/2025/10/07/welcome-to-the-new-website/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://largo.hackclub.com/blog/2025/10/07/welcome-to-the-new-website/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-the-new-lhscc-website&#34;&gt;Welcome to the new LHSCC Website&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#welcome-to-the-new-lhscc-website&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is the third iteration of the website, I am happily to introduce this new version.&lt;/p&gt;&#xA;&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 1930px&#34;&gt;&#xA;&lt;img class=&#34;card-img-top&#34; src=&#34;https://largo.hackclub.com/blog/2025/10/07/welcome-to-the-new-website/welcome_hu_128fb1bf03cb6580.png&#34; width=&#34;1920&#34; height=&#34;1200&#34;&gt;&#xA;&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;&#xA;&lt;p class=&#34;card-text&#34;&gt;&#xA;&#xA;&#xA;Home Page of the Website&#xA;&lt;small class=&#34;text-body-secondary&#34;&gt;&lt;br/&gt;Screenshot captured by D4LM&lt;/small&gt;&#xA;&lt;/p&gt;&#xA;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>About LHSCC</title>
+      <link>https://largo.hackclub.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://largo.hackclub.com/about/</guid>
+      <description>&lt;link rel=&#34;preload&#34; as=&#34;image&#34; href=&#34;https://largo.hackclub.com/about/featured-background_hu_ae2d4e82e6fae1bc.jpg&#34; media=&#34;(max-width: 1200px)&#34;&gt;&#xA;&lt;link rel=&#34;preload&#34; as=&#34;image&#34; href=&#34;https://largo.hackclub.com/about/featured-background_hu_5b81964b8276f425.jpg&#34; media=&#34;(min-width: 1200px)&#34;&gt;&#xA;&lt;style&gt;&#xA;#td-cover-block-0 {&#xA;  background-image: url(/about/featured-background_hu_ae2d4e82e6fae1bc.jpg);&#xA;}&#xA;@media only screen and (min-width: 1200px) {&#xA;  #td-cover-block-0 {&#xA;    background-image: url(/about/featured-background_hu_5b81964b8276f425.jpg);&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;section id=&#34;td-cover-block-0&#34; class=&#34;row td-cover-block td-cover-block--height-auto td-overlay td-overlay--dark -bg-dark&#34;&gt;&#xA;  &lt;div class=&#34;col-12&#34;&gt;&#xA;    &lt;div class=&#34;container td-overlay__inner&#34;&gt;&#xA;      &lt;div class=&#34;text-center&#34;&gt;&#xA;        &lt;h1 class=&#34;display-1 mt-0 mt-md-5 pb-4&#34;&gt;About LHSCC&lt;/h1&gt;&#xA;        &#xA;        &lt;div class=&#34;pt-3 lead&#34;&gt;&#xA;          &#xA;              &lt;p class=&#34;mt-5&#34;&gt;What is LHSCC?&lt;/p&gt;&#xA;&#xA;          &#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &#xA;&lt;/section&gt;&#xA;&#xA;&lt;div&gt;&lt;a id=&#34;td-block-1&#34; class=&#34;td-offset-anchor&#34;&gt;&lt;/a&gt;&lt;/div&gt;&#xA;&lt;section class=&#34;row td-box td-box--1 position-relative td-box--height-auto&#34;&gt;&#xA;&lt;div class=&#34;col-12&#34;&gt;&#xA;&lt;div class=&#34;container text-center td-arrow-down&#34;&gt;&#xA;&lt;div class=&#34;h4 mb-0&#34;&gt;&#xA;&lt;p&gt;LHSCC, or the Largo High School Coding Club. Is an official HackClub based at Largo High School in Largo, Florida. We&#xA;are a dedicated group of coders and programmers who wish to spread their love of coding, collaboration and community&#xA;love to the rest of the world!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Student Developer Pack</title>
+      <link>https://largo.hackclub.com/docs/docsresources/githubstudentdevpack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://largo.hackclub.com/docs/docsresources/githubstudentdevpack/</guid>
+      <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Documentation on how to get GitHub Student Developer Pack.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;github-student-developer-pack&#34;&gt;GitHub Student Developer Pack&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#github-student-developer-pack&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;GitHub Student Developer Pack is a free collection of tools provided by GitHub that is designed to help you progress&#xA;your coding journey!&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-do-i-get-it&#34;&gt;How do I get it?&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#how-do-i-get-it&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Fill out an application of the GitHub Student website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-is-it-useful-to-me&#34;&gt;How is it useful to me?&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#how-is-it-useful-to-me&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Grants you many cool resources!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search Results</title>
+      <link>https://largo.hackclub.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://largo.hackclub.com/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
