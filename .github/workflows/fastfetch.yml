@@ -1,4 +1,4 @@
-name: fastfetch.yml
+name: Run Fastfetch!
 
 on:
   push:
@@ -9,7 +9,7 @@ defaults:
     shell: bash
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
     env:
       FASTFETCH_VERSION: 2.53.0
