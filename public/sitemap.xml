@@ -6,10 +6,25 @@
     <lastmod>2025-10-07T13:27:34-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/agenda/</loc>
-    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-15T21:15:27-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/news/</loc>
     <lastmod>2025-10-07T13:02:58-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/2025-2026/</loc>
+    <lastmod>2025-10-16T10:24:58-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/agenda/</loc>
+    <lastmod>2025-10-16T10:24:58-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-10-16T10:24:58-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/agenda/10-16-2025/</loc>
+    <lastmod>2025-10-16T10:24:58-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-16T10:24:58-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2025/10/07/welcome-to-the-new-website/</loc>
     <lastmod>2025-10-07T13:02:58-04:00</lastmod>
@@ -19,9 +34,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-10-07T13:02:58-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-10-07T13:27:34-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/community/</loc>
     <lastmod>2025-10-06T08:52:18-04:00</lastmod>
@@ -43,8 +55,5 @@
   </url><url>
     <loc>http://localhost:1313/search/</loc>
     <lastmod>2025-10-06T08:52:18-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-10-07T13:27:34-04:00</lastmod>
   </url>
 </urlset>

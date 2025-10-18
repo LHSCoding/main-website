@@ -45,7 +45,7 @@ the benefits. As an official HackClub under the HackClub organization, we have a
 {.h4 .text-center}
 
 <div style="text-align: center">
-<img src="/images/icons/hackclub.svg" alt="HackClub Logo!">
+<img src="/images/icons/hackclub.svg" height="auto" width="100%" alt="HackClub Logo!">
 </div>
 
 {{% /blocks/section %}}

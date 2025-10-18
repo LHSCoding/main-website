@@ -6,7 +6,15 @@
     <description>Recent content in Categories on LHSCC</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Thu, 16 Oct 2025 10:24:58 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agenda</title>
+      <link>http://localhost:1313/categories/agenda/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/agenda/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Resources</title>
       <link>http://localhost:1313/categories/resources/</link>
