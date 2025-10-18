@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on LHSCC</title>
-    <link>http://localhost:1313/docs/docsresources/</link>
+    <link>https://largo.hackclub.com/docs/docsresources/</link>
     <description>Recent content in Resources on LHSCC</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/docs/docsresources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://largo.hackclub.com/docs/docsresources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Student Developer Pack</title>
-      <link>http://localhost:1313/docs/docsresources/githubstudentdevpack/</link>
+      <link>https://largo.hackclub.com/docs/docsresources/githubstudentdevpack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/docsresources/githubstudentdevpack/</guid>
+      <guid>https://largo.hackclub.com/docs/docsresources/githubstudentdevpack/</guid>
       <description>&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;&#xA;&lt;p&gt;Documentation on how to get GitHub Student Developer Pack.&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;github-student-developer-pack&#34;&gt;GitHub Student Developer Pack&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#github-student-developer-pack&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;GitHub Student Developer Pack is a free collection of tools provided by GitHub that is designed to help you progress&#xA;your coding journey!&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-do-i-get-it&#34;&gt;How do I get it?&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#how-do-i-get-it&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Fill out an application of the GitHub Student website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-is-it-useful-to-me&#34;&gt;How is it useful to me?&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#how-is-it-useful-to-me&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Grants you many cool resources!&lt;/p&gt;</description>
     </item>
   </channel>

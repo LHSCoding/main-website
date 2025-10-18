@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2025-2026 on LHSCC</title>
-    <link>http://localhost:1313/tags/2025-2026/</link>
+    <link>https://largo.hackclub.com/tags/2025-2026/</link>
     <description>Recent content in 2025-2026 on LHSCC</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Oct 2025 10:24:58 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/2025-2026/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://largo.hackclub.com/tags/2025-2026/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>October 16th, 2025</title>
-      <link>http://localhost:1313/docs/agenda/10-16-2025/</link>
+      <link>https://largo.hackclub.com/docs/agenda/10-16-2025/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/agenda/10-16-2025/</guid>
+      <guid>https://largo.hackclub.com/docs/agenda/10-16-2025/</guid>
       <description>&lt;h1 id=&#34;agenda-items&#34;&gt;Agenda Items&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#agenda-items&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;you-serve-we-serve-ysws&#34;&gt;You Serve We Serve (YSWS)&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#you-serve-we-serve-ysws&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-is-ysws&#34;&gt;What is YSWS?&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#what-is-ysws&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;YSWS is an initiative that for our club, that you (&lt;strong&gt;club member&lt;/strong&gt;), will do something (&lt;strong&gt;code&lt;/strong&gt;) and we (&lt;strong&gt;the club&lt;/strong&gt;) will&#xA;provide something in return.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;proposed-idea&#34;&gt;Proposed idea:&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#proposed-idea&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;For the one Julian (&lt;strong&gt;D4LM&lt;/strong&gt;) is thinking about is,&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;You&lt;/strong&gt;(Club Member): Code for at least two meeting days and add up to 1 hour in total coding time.&#xA;&lt;strong&gt;We&lt;/strong&gt;(Club): Give you stickers sometime during the end of quarter 2 and also provide a starter example project to do.&lt;/p&gt;</description>
     </item>
   </channel>

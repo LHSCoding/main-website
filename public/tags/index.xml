@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on LHSCC</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://largo.hackclub.com/tags/</link>
     <description>Recent content in Tags on LHSCC</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Oct 2025 10:24:58 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://largo.hackclub.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025-2026</title>
-      <link>http://localhost:1313/tags/2025-2026/</link>
+      <link>https://largo.hackclub.com/tags/2025-2026/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/2025-2026/</guid>
+      <guid>https://largo.hackclub.com/tags/2025-2026/</guid>
       <description></description>
     </item>
     <item>
       <title>Important</title>
-      <link>http://localhost:1313/tags/important/</link>
+      <link>https://largo.hackclub.com/tags/important/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/important/</guid>
+      <guid>https://largo.hackclub.com/tags/important/</guid>
       <description></description>
     </item>
   </channel>
