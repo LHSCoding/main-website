@@ -82,10 +82,12 @@ markup:
     renderer:
       unsafe: true
   highlight:
+
     # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
-    style: onedark
+    # style: base16-snazzy
+    noClasses: false
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
-    # guessSyntax: true
+    guessSyntax: true
 
 # Everything below this are Site Params
 
@@ -149,7 +151,7 @@ params:
   offlineSearch: true
 
   # Enable syntax highlighting and copy buttons on code blocks with Prism
-  prism_syntax_highlighting: true
+  prism_syntax_highlighting: false # Broken ish when tried...
 
   copyright:
     authors: Largo High School Coding Club | Mozilla Public License Version 2.0
@@ -241,6 +243,13 @@ params:
        # url: https://example.org/mail
        # icon: fa fa-envelope
         #desc: Discuss development issues around the project
+
+menu:
+  main:
+    - name: LHS Minecraft Server Dashboard
+      weight: 40
+      url: https://lhsminecraft.dpdns.org
+      post: <sup><i class="ps-1 fa-solid fa-up-right-from-square fa-xs"aria-hidden="true"></i></sup>
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
